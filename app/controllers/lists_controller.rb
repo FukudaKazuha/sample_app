@@ -14,13 +14,14 @@ class ListsController < ApplicationController
   end
 
   def index
+    @lists=List.all
   end
 
-  def show
-  end
+  # def show
+  # end
 
-  def edit
-  end
+  # def edit
+  # end
   
   private
   # ストロングパラメータ
